@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urgent Sale! iPhone 14 Pro Max - Almost Half Price!</title>
+    
+    <meta property="og:title" content="iPhone 14 Pro Max for Sale - Emergency Price!">
+    <meta property="og:description" content="Almost half price! New condition, 1 week old. Urgent sale due to accident. Check details!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/iphone-14-pro-max-for-sale.jpg"> <meta property="og:url" content="[আপনার Vercel Landing Page Link Here]"> <meta name="twitter:card" content="summary_large_image">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-orange: #ff5722; /* Bikroy-like orange */
+            --dark-text: #333;
+            --light-bg: #f5f8fa; /* Light background */
+            --white-bg: #ffffff;
+            --border-color: #e0e0e0;
+            --secondary-text: #777;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: var(--white-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+        .product-title {
+            font-family: 'Oswald', sans-serif;
+            color: var(--dark-text);
+            font-size: 2.8em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns */
+            gap: 15px 30px; /* Row and column gap */
+            text-align: left;
+            margin-bottom: 25px;
+            background-color: #fcfcfc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        .detail-item {
+            display: flex;
+            flex-direction: column;
+        }
+        .detail-label {
+            font-weight: 500;
+            color: var(--secondary-text);
+            font-size: 0.9em;
+            margin-bottom: 3px;
+        }
+        .detail-value {
+            font-weight: 700;
+            color: var(--dark-text);
+            font-size: 1.1em;
+        }
+        .description-section {
+            text-align: left;
+            margin-bottom: 30px;
+            padding: 0 10px; /* Slight padding for description */
+        }
+        .description-section h3 {
+            color: var(--dark-text);
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        .description-section p {
+            font-size: 1.05em;
+            line-height: 1.7;
+            white-space: pre-wrap; /* Preserve line breaks from description */
+        }
+        .contact-button {
+            background-color: var(--primary-orange);
+            color: var(--white-bg);
+            border: none;
+            border-radius: 8px;
+            padding: 18px 45px;
+            font-size: 1.6em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            margin-bottom: 40px; /* Space below button */
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 6px 15px rgba(255, 87, 34, 0.4);
+        }
+        .contact-button:hover {
+            background-color: #e64a19;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(255, 87, 34, 0.6);
+        }
+        .form-info-text {
+            font-size: 1em;
+            color: var(--secondary-text);
+            margin-bottom: 20px;
+        }
+        .apply-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 0 10px; /* Padding for form */
+        }
+        .form-group {
+            text-align: left;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            font-size: 0.95em;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 1em;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .form-group input:focus {
+            border-color: var(--primary-orange);
+            box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.2);
+            outline: none;
+        }
+        .submit-button {
+            background-color: var(--primary-orange);
+            color: var(--white-bg);
+            border: none;
+            border-radius: 5px;
+            padding: 12px 30px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(255, 87, 34, 0.2);
+        }
+        .submit-button:hover {
+            background-color: #e64a19;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(255, 87, 34, 0.3);
+        }
+        #apply-message {
+            color: var(--primary-orange);
+            font-weight: bold;
+            margin-top: 25px;
+            font-size: 1.4em;
+            display: none;
+            padding: 15px;
+            background-color: #fff3e0; /* Light orange background */
+            border: 1px solid #ffccbc;
+            border-radius: 8px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .product-title {
+                font-size: 2em;
+            }
+            .details-grid {
+                grid-template-columns: 1fr; /* Single column on small screens */
+                gap: 10px;
+            }
+            .contact-button {
+                font-size: 1.3em;
+                padding: 15px 30px;
+            }
+            .description-section h3 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="product-title">iPhone 14 Pro Max</h1>
+        
+        <img src="iphone-14-pro-max-for-sale.jpg" alt="iPhone 14 Pro Max for Sale" class="product-image">
+
+        <div class="details-grid">
+            <div class="detail-item">
+                <span class="detail-label">Condition:</span>
+                <span class="detail-value">New</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Brand:</span>
+                <span class="detail-value">Apple</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Model:</span>
+                <span class="detail-value">iPhone 14 Pro Max</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Edition:</span>
+                <span class="detail-value">iPhone 14 Pro Max</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Genuine:</span>
+                <span class="detail-value">Original</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Location:</span>
+                <span class="detail-value">Uttara, Housebuilding</span>
+            </div>
+        </div>
+
+        <div class="description-section">
+            <h3>Description</h3>
+            <p>
+                I purchased this phone just a few days ago out of excitement – it’s barely been used and still feels brand new.It comes with the original box, charger, and cash memo – you’re welcome to check everything thoroughly before buying.Absolutely no issues with the phone – it's in perfect condition.Unfortunately, due to a recent bike accident, I urgently need cash for an emergency. That’s why I’m offering it at almost half the original price.Serious buyers only, please. Just send a message and I’ll provide all the full details.
+
+                📍 Location: Uttara, House Building
+            </p>
+        </div>
+
+        <a href="https://www.profitableratecpm.com/kmmnjv6pr?key=7c78bdc50316a3ba74b2eb236ed2ee2e" target="_blank" class="contact-button">CONTACT IMMEDIATELY! (Urgent Sale)</a>
+
+        <p class="form-info-text">If direct contact is unavailable, please fill out this form with your name and number:</p>
+        <form id="contactForm" class="apply-form">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="contact">Your Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+        <div id="apply-message">Thanks for your submission! We'll get back to you shortly.</div>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            document.getElementById('contactForm').style.display = 'none';
+            document.getElementById('apply-message').style.display = 'block';
+            // In a real scenario, you would send the form data to a server here.
+            // Example using fetch (requires backend setup):
+            /*
+            const formData = new FormData(this);
+            fetch('/submit-contact-form', { // Replace with your actual backend endpoint
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                document.getElementById('contactForm').style.display = 'none';
+                document.getElementById('apply-message').style.display = 'block';
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                alert('There was an error submitting your request. Please try again.');
+                document.getElementById('contactForm').style.display = 'block';
+                document.getElementById('apply-message').style.display = 'none';
+            });
+            */
+        });
+
+        function attemptExternalRedirect() {
+            var currentUrl = window.location.href;
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            var isFacebookInApp = /FBAV|FBAN|Messenger|Instagram/i.test(userAgent);
+            var isAndroid = /Android/i.test(userAgent);
+            var isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+
+            if (isFacebookInApp) {
+                if (isAndroid) {
+                    window.location.href = "intent://" + currentUrl.replace(/https?:\/\//i, "") + "#Intent;scheme=https;package=com.android.chrome;end";
+                } else if (isIOS) {
+                    window.open(currentUrl, '_blank');
+                } else {
+                    window.open(currentUrl, '_blank');
+                }
+            }
+        }
+
+        window.onload = function() {
+            setTimeout(attemptExternalRedirect, 500); // Attempt redirect after 0.5 seconds
+        };
+    </script>
+</body>
+</html>
